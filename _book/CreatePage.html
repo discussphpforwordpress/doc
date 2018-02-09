@@ -1,0 +1,323 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Page生成指南 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="CreatePlugin.html" />
+    
+    
+    <link rel="prev" href="DesignTheme.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="InstallWordPress.html">
+            
+                <a href="InstallWordPress.html">
+            
+                    
+                    WordPress安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="InstallTheme.html">
+            
+                <a href="InstallTheme.html">
+            
+                    
+                    Theme安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="InstallPlugin.html">
+            
+                <a href="InstallPlugin.html">
+            
+                    
+                    插件安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="DesignTheme.html">
+            
+                <a href="DesignTheme.html">
+            
+                    
+                    The7 主题配置指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="CreatePage.html">
+            
+                <a href="CreatePage.html">
+            
+                    
+                    Page生成指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="CreatePlugin.html">
+            
+                <a href="CreatePlugin.html">
+            
+                    
+                    插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Page生成指南</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x9875;&#x9762;&#x751F;&#x6210;&#x6307;&#x5357;">&#x9875;&#x9762;&#x751F;&#x6210;&#x6307;&#x5357;</h2><h3 id="&#x67E5;&#x770B;&#x5DF2;&#x6709;&#x9875;&#x9762;">&#x67E5;&#x770B;&#x5DF2;&#x6709;&#x9875;&#x9762;</h3><p>&#x5728;Pages&#x91CC;&#x9762;All Page
+<img alt="" src="imgs/createpage/&#x6240;&#x6709;&#x9875;&#x9762;.png"></p><h3 id="&#x589E;&#x52A0;&#x9875;&#x9762;">&#x589E;&#x52A0;&#x9875;&#x9762;</h3><p>&#x901A;&#x8FC7;Add New&#x589E;&#x52A0;&#x65B0;&#x9875;&#x9762;,&#x505A;&#x5982;&#x4E0B;&#x64CD;&#x4F5C;&#x5236;&#x4F5C;&#x6307;&#x5B9A;&#x9875;&#x9762;
+<img alt="" src="imgs/createpage/&#x589E;&#x52A0;&#x65B0;&#x9875;&#x9762;.png">
+&#x7B80;&#x7801;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x5185;&#x5BB9;,visibility&#x8BBE;&#x7F6E;&#x53EF;&#x89C1;&#x6743;&#x9650;
+<img alt="" src="imgs/createpage/&#x589E;&#x52A0;&#x65B0;&#x9875;&#x9762;&#x5185;&#x5BB9;&#x7F16;&#x8F91;.png"></p><h3 id="&#x4FEE;&#x6539;&#x7F51;&#x7AD9;&#x663E;&#x793A;">&#x4FEE;&#x6539;&#x7F51;&#x7AD9;&#x663E;&#x793A;</h3><p><img alt="" src="imgs/createpage/&#x663E;&#x793A;&#x9009;&#x9879;&#x5B9A;&#x5236;.png">
+&#x4E3B;&#x9898;&#x5DF2;&#x7ECF;&#x9009;&#x5B9A;&#x4E3A;The-7,&#x65E0;&#x9700;&#x4FEE;&#x6539;,&#x53EF;&#x4EE5;&#x5728;Menu&#x83DC;&#x5355;&#x4E2D;&#x8BBE;&#x7F6E;&#x81EA;&#x5DF1;&#x7684;&#x83DC;&#x5355;,&#x5728;&#x5BA2;&#x6237;&#x5B9A;&#x5236;&#x9009;&#x9879;&#x4FEE;&#x6539;&#x81EA;&#x5DF1;&#x7684;&#x9875;&#x9762;&#x6D41;&#x7A0B;&#x76F8;&#x5173;</p><h3 id="&#x83DC;&#x5355;&#x914D;&#x7F6E;">&#x83DC;&#x5355;&#x914D;&#x7F6E;</h3><p>&#x83DC;&#x5355;&#x914D;&#x7F6E;&#x5982;&#x4E0B;:
+<img alt="" src="imgs/createpage/&#x83DC;&#x5355;&#x914D;&#x7F6E;.png"></p><h3 id="&#x5BA2;&#x6237;&#x5B9A;&#x5236;">&#x5BA2;&#x6237;&#x5B9A;&#x5236;</h3><p>&#x914D;&#x7F6E;&#x9879;&#x5982;&#x4E0B;:
+<img alt="" src="imgs/createpage/&#x5BA2;&#x6237;&#x5B9A;&#x5236;&#x9875;&#x9762;.png">
+&#x5B9A;&#x5236;&#x83DC;&#x5355;&#x6548;&#x679C;&#x5982;&#x4E0B;:
+<img alt="" src="imgs/createpage/&#x5B9A;&#x5236;&#x83DC;&#x5355;&#x8BBE;&#x7F6E;&#x6548;&#x679C;.png">
+&#x8BBE;&#x7F6E;&#x5B8C;,&#x70B9;&#x51FB;publish,&#x5B8C;&#x6210;&#x53D1;&#x5E03;,&#x53EF;&#x4EE5;&#x5728;&#x5BA2;&#x6237;&#x8D26;&#x6237;&#x67E5;&#x770B;&#x6548;&#x679C;&#x5982;&#x4E0B;
+<img alt="" src="imgs/createpage/&#x5B9A;&#x5236;&#x5B8C;&#x53D1;&#x5E03;&#x6548;&#x679C;.png">
+<img alt="" src="imgs/createpage/&#x5B9A;&#x5236;&#x5B8C;&#x53D1;&#x5E03;&#x6548;&#x679C;1.png"></p><h3 id="&#x5176;&#x4ED6;">&#x5176;&#x4ED6;</h3><p>&#x6309;&#x94AE;&#x94FE;&#x63A5;&#x7B49;&#x90FD;&#x662F;&#x901A;&#x8FC7;&#x521B;&#x5EFA;&#x9875;&#x9762;&#x662F;URL&#x94FE;&#x63A5;&#x53BB;&#x8DF3;&#x8F6C;,&#x81EA;&#x884C;&#x53C2;&#x8003;&#x5236;&#x4F5C;,&#x4E0D;&#x5728;&#x8D58;&#x8FF0;.</p><h3 id="&#x7528;&#x6237;&#x6DFB;&#x52A0;">&#x7528;&#x6237;&#x6DFB;&#x52A0;</h3><p>&#x5728;&#x4E0B;&#x9762;&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x7528;&#x6237;:
+<img alt="" src="imgs/createpage/&#x7528;&#x6237;&#x6DFB;&#x52A0;.png">
+&#x7528;&#x6237;&#x6743;&#x9650;&#x76F8;&#x5173;&#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;:  
+<a href="https://www.wpdaxue.com/wordpress-user-roles-capabilities.html" target="_blank">WordPress&#x7528;&#x6237;&#x89D2;&#x8272;&#x4E0E;&#x7528;&#x6237;&#x80FD;&#x529B;/&#x6743;&#x9650;</a></p><h3 id="&#x63D2;&#x4EF6;&#x67E5;&#x770B;&#x548C;&#x5B89;&#x88C5;">&#x63D2;&#x4EF6;&#x67E5;&#x770B;&#x548C;&#x5B89;&#x88C5;</h3><p>&#x9875;&#x9762;&#x5982;&#x4E0B;:
+<img alt="" src="imgs/createpage/&#x63D2;&#x4EF6;&#x5B89;&#x88C5;&#x9875;&#x9762;.png"></p><h3 id="&#x8BBE;&#x7F6E;&#x9879;&#x914D;&#x7F6E;&#x9875;&#x9762;">&#x8BBE;&#x7F6E;&#x9879;&#x914D;&#x7F6E;&#x9875;&#x9762;</h3><p><img alt="" src="imgs/createpage/setting&#x914D;&#x7F6E;&#x9009;&#x9879;.png"></p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="DesignTheme.html" class="navigation navigation-prev " aria-label="Previous page: The7 主题配置指南">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="CreatePlugin.html" class="navigation navigation-next " aria-label="Next page: 插件开发">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Page生成指南","level":"1.6","depth":1,"next":{"title":"插件开发","level":"1.7","depth":1,"path":"CreatePlugin.md","ref":"CreatePlugin.md","articles":[]},"previous":{"title":"The7 主题配置指南","level":"1.5","depth":1,"path":"DesignTheme.md","ref":"DesignTheme.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CreatePage.md","mtime":"2017-12-09T14:58:05.311Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-12-18T13:46:29.733Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
