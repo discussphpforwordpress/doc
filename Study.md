@@ -17,7 +17,10 @@
 [WordPress用户登录后重定向到指定页面](https://www.cnblogs.com/kenshinobiy/p/7476500.html)
 
 [wordpress特定用户设置显示或隐藏头部工具栏](https://jingyan.baidu.com/article/90895e0fb2205e64ed6b0b47.html)
+[WordPress用户中心插件Membership演示](https://v.qq.com/x/page/d0381mm1dgi.html)
+[WordPress 使用 Ultimate Member 实现前台用户中心功能](https://www.wpdaxue.com/ultimate-member.html)
 
 ### 图像处理相关
 [6 款 Javascript 的图像处理库](https://segmentfault.com/a/1190000008670319)
 [8 个用于增强图片效果的WordPress插件](http://www.iteye.com/news/25401)
+[WordPress 限制不同用户角色可上传的文件类型及大小](https://www.wpdaxue.com/wordpress-existing_mimes-upload_size_limit.html)
