@@ -10,6 +10,11 @@
 
 2. 服务器根目录切换到abc.com
 
+### 使用相关插件说明
+1. All-in-one WP Migration（网站迁移）
+2. Membership by supsystic（会员系统）
+3. WeChat Social（第三方登录）
+
 ### 登录注册页面实现
 [建立网站如何用wordpress快速设置注册登录页面](https://jingyan.baidu.com/article/656db918cf0c30e380249c6a.html)  
 [不用插件，定制化WordPress登陆注册页面](http://www.solagirl.net/custom-wordpress-login-without-plugins.html)  
@@ -24,3 +29,7 @@
 [6 款 Javascript 的图像处理库](https://segmentfault.com/a/1190000008670319)
 [8 个用于增强图片效果的WordPress插件](http://www.iteye.com/news/25401)
 [WordPress 限制不同用户角色可上传的文件类型及大小](https://www.wpdaxue.com/wordpress-existing_mimes-upload_size_limit.html)
+[20款最好用的wordpress图片相册插件](http://blog.csdn.net/liuxuekai/article/details/52122324)
+ImageMagick
+[WP_Image_Editor_Imagick 漏洞临时解决方法](https://www.wpdaxue.com/wp_image_editor_imagick.html)
+Closify Press
