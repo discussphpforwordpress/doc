@@ -1,5 +1,15 @@
 ## 学习心得总结
 
+### 基础
+轻量级的  lumen/yaf 都行
+稍微重量级些的： yii/ ThinkPHP/
+PHP官网：http://php.net/manual/zh/index.php
+WordPress：https://codex.wordpress.org/zh-cn:%E5%AE%89%E8%A3%85_WordPress#.E5.BC.80.E5.A7.8B.E5.AE.89.E8.A3.85WordPress.E4.B9.8B.E5.89.8D.E4.BD.A0.E9.9C.80.E8.A6.81.E7.9F.A5.E9.81.93.E7.9A.84.E4.B8.9C.E8.A5.BF
+[PHP工程师学习计划](https://www.cnblogs.com/Lance--blog/p/4472139.html)
+[PHP详细学习计划](http://blog.csdn.net/mepsoft/article/details/48496705)
+
+[vscode：visual studio code 调试php](https://blog.csdn.net/x356982611/article/details/52664334)
+
 ### 调用路径
 1. 通过zeal软件查看wp开发文档代码走读
 2. index.php -> wp-blog-header.php -> wp() -> wp-includes/class-wp.php -> template-loader.php
@@ -14,6 +24,9 @@
 1. All-in-one WP Migration（网站迁移）
 2. Membership by supsystic（会员系统）
 3. WeChat Social（第三方登录）
+
+### wordpress使用
+[WordPress引入css/js两种方法](https://blog.csdn.net/csnewdn/article/details/54021234)
 
 ### 登录注册页面实现
 [建立网站如何用wordpress快速设置注册登录页面](https://jingyan.baidu.com/article/656db918cf0c30e380249c6a.html)  
@@ -33,3 +46,6 @@
 ImageMagick
 [WP_Image_Editor_Imagick 漏洞临时解决方法](https://www.wpdaxue.com/wp_image_editor_imagick.html)
 Closify Press
+
+### 图片上传
+[PHP+js实现图片上传，编辑](https://www.cnblogs.com/rendd/p/7009186.html)
